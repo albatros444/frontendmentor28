@@ -1,0 +1,49 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 340px;
+  background-color: hsl(168, 44%, 70%);
+
+  .box {
+    width: 295px;
+    .logo {
+      margin: 0 auto;
+      width: 167px;
+      margin-bottom: 36px;
+    }
+    .links {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 90px;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      color: var(--darkModSyan);
+      a {
+        transition: all 0.15s ease-in-out;
+      }
+      a:nth-child(1) {
+        width: 60px;
+      }
+      a:hover {
+        color: white;
+      }
+    }
+    .socialLinks {
+      .box {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 160px;
+        svg {
+          cursor: pointer;
+          fill: #2c7566;
+          transition: all 0.15s ease-in-out;
+          &:hover {
+            fill: white;
+          }
+        }
+      }
+    }
+  }
+}

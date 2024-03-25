@@ -1,0 +1,12 @@
+//gridSections
+@import "gridSections/hero";
+@import "gridSections/sections1-4";
+@import "gridSections/sections5-10";
+@import "gridSections/testimonials";
+
+.grid {
+  display: grid;
+  max-width: 1720px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 785px repeat(3, 590px) 763px 438px;
+}

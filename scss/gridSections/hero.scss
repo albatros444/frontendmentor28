@@ -1,0 +1,25 @@
+.hero {
+  // display: none;
+  grid-column: 1 / 5;
+  background: hsl(200, 100%, 62%) url(/images/desktop/image-header.jpg) bottom
+    center/contain no-repeat;
+  padding-top: 190px;
+  .box {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 280px;
+    .text {
+      font-family: var(--ser);
+      font-size: 55px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--white);
+    }
+    .arrow {
+    }
+  }
+}
