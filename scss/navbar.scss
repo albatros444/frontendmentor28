@@ -1,5 +1,5 @@
 .navbar {
-  position: fixed;
+  // position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,37 +21,50 @@
     align-items: center;
     width: 460px;
     margin-right: 45px;
+  }
+  .dropDownMenu {
+    display: none;
+    position: relative;
+    .triangle {
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: -25px;
+      right: 0;
+      border-right: 30px solid transparent;
+      border-top: 30px solid white;
+      rotate: 180deg;
+    }
+  }
+  a {
     font-size: 18px;
     font-family: var(--sansSer);
     font-weight: 500;
     letter-spacing: -0.03em;
     color: hsl(52, 79%, 94%);
-    .contactButton {
-      display: inline-block;
-      width: 140px;
-      height: 55px;
-      padding: 0;
-      padding-top: 18px;
-      border: none;
-      border-radius: 55px;
-      outline: inherit;
-      cursor: pointer;
-      font-family: var(--ser);
-      font-size: 16px;
-      font-weight: 600;
-      text-align: center;
-      text-decoration: none;
-      text-transform: uppercase;
-      background: var(--white);
-      color: var(--darkDesBlue);
-      transition: all 0.15s ease-in-out;
-      &:hover {
-        background-color: hsl(200, 100%, 72%);
-        color: hsl(52, 57%, 97%);
-      }
+  }
+  .contactButton {
+    display: block;
+    width: 140px;
+    height: 55px;
+    padding: 0;
+    padding-top: 18px;
+    border: none;
+    border-radius: 55px;
+    outline: inherit;
+    cursor: pointer;
+    font-family: var(--ser);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--white);
+    color: var(--darkDesBlue);
+    transition: all 0.15s ease-in-out;
+    &:hover {
+      background-color: hsl(200, 100%, 72%);
+      color: hsl(52, 57%, 97%);
     }
   }
-  // .hamburgerMenu {
-  //   display: none;
-  // }
 }
