@@ -1,0 +1,45 @@
+.graphPhotoSection {
+  height: 600px;
+}
+.section5 {
+  order: 5;
+  background: url(/images/mobile/image-graphic-design.jpg) top/cover no-repeat;
+  p {
+    color: hsl(169, 38%, 30%);
+  }
+}
+.section6 {
+  order: 6;
+  background: url(/images/mobile/image-photography.jpg) top/cover no-repeat;
+}
+
+.bottomImages {
+  display: flex;
+  flex-wrap: wrap;
+
+  order: 8;
+  .section7 {
+    width: 50%;
+    height: 50vw;
+    background: url(/images/mobile/image-gallery-milkbottles.jpg) no-repeat;
+    background-size: contain;
+  }
+  .section8 {
+    width: 50%;
+    height: 50vw;
+    background: url(/images/mobile/image-gallery-orange.jpg) no-repeat;
+    background-size: contain;
+  }
+  .section9 {
+    width: 50%;
+    height: 50vw;
+    background: url(/images/mobile/image-gallery-cone.jpg) no-repeat;
+    background-size: contain;
+  }
+  .section10 {
+    width: 50%;
+    height: 50vw;
+    background: url(/images/mobile/image-gallery-sugar-cubes.jpg) no-repeat;
+    background-size: contain;
+  }
+}

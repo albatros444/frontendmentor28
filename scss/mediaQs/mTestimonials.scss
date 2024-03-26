@@ -1,0 +1,30 @@
+.testimonialsSection {
+  order: 7;
+  h2 {
+    margin-top: 65px;
+    margin-bottom: 63px;
+    font-size: 16px;
+  }
+  .box {
+    display: block;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    .testimonial {
+      width: 100%;
+      margin-bottom: 70px;
+      .avatar {
+        margin-bottom: 25px;
+      }
+      p:nth-child(2) {
+        margin-bottom: 30px;
+        font-size: 19px;
+        letter-spacing: -0.03em;
+        line-height: 1.7;
+      }
+    }
+    .testimonial:last-child {
+      margin-bottom: 85px;
+    }
+  }
+}

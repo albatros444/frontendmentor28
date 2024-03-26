@@ -1,0 +1,14 @@
+.hero {
+  height: 535px;
+  padding-top: 150px;
+  order: 0;
+  background: hsl(200, 100%, 62%) url(/images/mobile/image-header.jpg) bottom
+    center/cover no-repeat;
+  .box {
+    height: 250px;
+    .text {
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+}

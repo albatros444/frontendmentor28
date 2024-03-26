@@ -1,0 +1,31 @@
+.learnMoreSection {
+  .box {
+    margin: 60px 33px;
+    text-align: center;
+    h2 {
+      margin-bottom: 25px;
+      font-size: 32px;
+    }
+    p {
+      line-height: 1.6;
+    }
+  }
+}
+.section1 {
+  order: 2;
+}
+.section2 {
+  height: 312px;
+  order: 1;
+  background: url(/images/mobile/image-transform.jpg) center center/cover
+    no-repeat;
+}
+.section3 {
+  height: 312px;
+  order: 3;
+  background: url(/images/mobile/image-stand-out.jpg) center center/cover
+    no-repeat;
+}
+.section4 {
+  order: 4;
+}

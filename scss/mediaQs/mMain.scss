@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px) {
+  @import "mNavbar";
+  @import "mHero";
+  @import "mSections1-4";
+  @import "mSections5-10";
+  @import "mTestimonials";
+  .grid {
+    display: flex;
+    flex-flow: column;
+  }
+}
